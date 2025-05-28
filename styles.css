@@ -180,8 +180,6 @@ body {
   overflow: hidden;
 }
 
-
-
 .glassmorphism-header.scrolled .header-content {
 
     opacity: 0;
@@ -191,15 +189,10 @@ body {
     overflow: hidden;
 }
 
-
-
-
 .glassmorphism-header.scrolled .modern-nav {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
 }
-
-
 
 .progress-fill {
   height: 100%;
@@ -224,9 +217,6 @@ body {
     /* Add position relative to prevent layout shifts */
     position: relative;
 }
-
-
-
 
 .nav-container {
   display: flex;
@@ -736,7 +726,6 @@ body {
   pointer-events: none;
 }
 
-
 .fab-menu.active .fab-options {
   opacity: 1;
   transform: translateY(0);
@@ -809,21 +798,19 @@ body {
   font-size: 0.875rem;
 }
 
+@media (max-width: 1200px) {
+    .header-content {
+        padding: 1rem 1.5rem;
+    }
 
-  @media (max-width: 1200px) {
-      .header-content {
-          padding: 1rem 1.5rem;
-      }
+    .modern-nav {
+        padding: 1rem 1.5rem;
+    }
 
-      .modern-nav {
-          padding: 1rem 1.5rem;
-      }
-
-      .glassmorphism-header.scrolled .modern-nav {
-          padding: 0.75rem 1.5rem;
-      }
-  }
-
+    .glassmorphism-header.scrolled .modern-nav {
+        padding: 0.75rem 1.5rem;
+    }
+}
 
 @media (max-width: 768px) {
 
@@ -841,8 +828,6 @@ body {
   .glassmorphism-header.scrolled .modern-nav {
       padding: 0.75rem 1rem;
   }
-
-
 
   .progress-indicator {
     justify-content: center;
